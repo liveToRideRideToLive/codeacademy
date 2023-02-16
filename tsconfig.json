@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2019",
+        "types": [
+          "node",
+          "@wdio/globals/types",
+          "expect-webdriverio",
+          "@wdio/jasmine-framework",
+          "@wdio/selenium-standalone-service"
+        ]
+      },
+      "include": [
+        "./test/**/*.ts",
+      ]
+}
